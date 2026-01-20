@@ -13,6 +13,8 @@ def home():
 
 # ----------- Price Endpoints -----------
 
+# Aaryan Adding a Random Comment! #
+
 @app.route("/api/retrieve-price", methods=["GET"])
 def retrieve_price():
     symbol = request.args.get("symbol", "").upper()
