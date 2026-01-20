@@ -77,6 +77,7 @@ def high_memory():
     return f"Allocated {len(data)} MB of memory temporarily."
 
 
+
 # ----------- Portfolio CRUD -----------
 
 @app.route("/api/portfolio", methods=["POST"])
