@@ -57,7 +57,7 @@ def client_valuation():
 def high_cpu():
     import math
     # Simulate CPU load by calculating primes
-    n = 50000
+    n = 500000
     primes = []
     for num in range(2, n):
         is_prime = True
